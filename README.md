@@ -51,8 +51,21 @@ Para buscar una aplicación según nombre o ID, ingrese este luego de confirmar 
 
 
 
+### _2 - Mostrar información de las 10 aplicaciones más parecidas a una aplicación dada_
+
+Para buscar las 10 aplicaciones más parecidas a una aplicación dada, ingrese el ID luego de confirmar la opción. Este retornará las 10 aplicaciones de mas cercanas, desde el mas cercano al mas lejano, con su nombre e ID.
+
+<p align="center">
+  <img  src="https://i.imgur.com/JSFyrLe.png">
+</p>
+
+<p align="center">
+  Fig 1.4 Busqueda de las 10 aplicaciones mas cercanas mediante un ID.
+</p>
 
 
+
+### _3 - Mostrar información de las 10 aplicaciones más parecidas a vector de atributos_
 
 
 ## _Descripción del problema_
