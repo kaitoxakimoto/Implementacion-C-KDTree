@@ -24,13 +24,19 @@ Para correr la aplicación, simplemente correr el comando `python main.py`
 </p>
 
 
-Luego, mostrará la interfaz, en donde hay 4 opciones que seran explicadas a continuación.
+Luego, mostrará la interfaz, en donde hay 4 opciones, para usarlas, el usuario debe ingresar el digito correspondiente. Estas seran explicadas a continuación.
 
 
 ### _1 - Mostrar información de una aplicación específica_
 
-dsd
+Para buscar una aplicación según nombre o ID, ingrese este luego de confirmar la opción. Este retornará el juego en cuestión con todos sus datos.
+<p align="center">
+  <img  src="https://i.imgur.com/2GBT4g9.png">
+</p>
 
+<p align="center">
+  Fig 1.1 Busqueda de la aplicación mediante ID.
+</p>
 
 
 ## _Descripción del problema_
