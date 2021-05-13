@@ -10,39 +10,26 @@ Para utilizar nuestro programa, se necesita Python 3+, y los siguientes packetes
 * Numpy (pip install numpy)
 * Pandas (pip install pandas)
 
+Además de contener el archivo "Desafio3.csv" en la raíz.
+
+Para correr la aplicación, simplemente correr el comando `python main.py`
+
+
+
 <center>
 
 
 <p align="center">
-  <img  src="https://i.imgur.com/3Qb4S3s.png">
-</p>
-
-De estos al usuario le importa “sudoku.txt”, que contiene el sudoku a resolver en el siguiente formato
-
-
-<p align="center">
-  <img  src="https://i.imgur.com/WGEG3WM.png">
+  <img  src="https://i.imgur.com/TLyW9UT.png">
 </p>
 
 
-El archivo se compone de 9 filas de 9 caracteres cada una. Si una casilla tiene una pista inicial, se anota el número. Sino, se pone el caracter “ - ” (guión).
-
-En caso de que el programa ya este precompilado entonces basta con ejecutar el programa desafio1.exe
-
-En caso de querer compilar su propia versión del programa. podrá ejecutar el archivo            “ compilador.bat ” o en una terminal (cmd) ejecutar la siguiente línea de comandos.
-
-`g++ -O3 -o desafio1 *.cpp`
-
-Esto requerirá que su sistema tenga presente alguna versión del compilador g++. que puede conseguir [Aquí](http://mingw-w64.org/doku.php).
+Luego, mostrará la interfaz, en donde hay 4 opciones que seran explicadas a continuación.
 
 
-Al ejecutar el programa usted observará que el programa le mostrará su sudoku ingresado, para luego mostrar la solución.
 
-<p align="center">
-  <img  src="https://i.imgur.com/iW2ST32.png">
-</p>
 
-<br></br>
+
 
 ## _Descripción del problema_
 
