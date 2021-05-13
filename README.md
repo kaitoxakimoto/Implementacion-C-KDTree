@@ -27,7 +27,9 @@ Para correr la aplicación, simplemente correr el comando `python main.py`
 Luego, mostrará la interfaz, en donde hay 4 opciones que seran explicadas a continuación.
 
 
+## __1 - Mostrar información de una aplicación específica__
 
+dsd
 
 
 
