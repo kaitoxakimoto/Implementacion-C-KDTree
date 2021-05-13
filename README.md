@@ -126,10 +126,10 @@ __Naked Single:__ Primero se examina el sudoku por casillas donde solo existe un
 
 ## _Presentación en video_
 
-[Presentación en YouTube.](https://www.youtube.com/watch?v=A43KYQiKK5I)
+[Presentación en YouTube.](https://youtu.be/yUtvO6JW0jM)
 
-[![Desafío 1: Sudoku
-Estructura de Datos Avanzadas
-](https://i.imgur.com/ipBDFQd.png)](https://www.youtube.com/watch?v=A43KYQiKK5I "Desafío 1: Sudoku
-Estructura de Datos Avanzadas
+[![Desafío 3:
+Manejo de datos espaciales
+](https://i.imgur.com/16S684v.png)](https://youtu.be/yUtvO6JW0jM "Desafío 3:
+Manejo de datos espaciales
 ")
