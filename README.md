@@ -76,7 +76,7 @@ Para buscar las 10 aplicaciones más parecidas a una aplicación dada, los atrib
 </p>
 
 <p align="center">
-  Fig 1.4 Busqueda de las 10 aplicaciones mas cercanas según un vector de atributos.
+  Fig 1.5 Busqueda de las 10 aplicaciones mas cercanas según un vector de atributos.
 </p>
 
 ### _0 - Salir de la aplicación_
@@ -97,9 +97,54 @@ Nuestra solución al desafío 3 modela el problema con KD Tree, con los datos de
 
 ## _Descripción del algoritmo_
 
-__ResolverSudoku():__ Esta función se llama recursivamente, y emplea los siguientes algoritmos de manera secuencial.
 
-__Naked Single:__ Primero se examina el sudoku por casillas donde solo existe un candidato. Esto solo suele ocurrir en los sudokus de nivel básico e intermedio, es común que en estos se pueda llenar gran parte del sudoku solamente usando movimientos naked single, lo cual abre nuevos posibles movimientos con este criterio.
+
+<p align="center">
+  <img  src="https://i.imgur.com/1IhGb9i.png">
+</p>
+
+<p align="center">
+  Fig 2.1 Pseudo codigo Vecinos mas cercanos.
+</p>
+
+Para la aplicación del algoritmo k nearest se implemento la solución propuesta en clase con los respectivos cambios que la harán compatible con python.
+
+
+<p align="center">
+  <img  src="https://i.imgur.com/3uUdqJ3.png">
+</p>
+
+<p align="center">
+  Fig 2.2 Mas cercanos en Python.
+</p>
+
+En este sector del código observamos que primero se crean las estructuras explicitadas en el pseudocódigo, siendo “vecinos” equivalente a k nearest, “nodos visitados” siendo “nodos explorados”, y la pila S siendo idéntica.
+
+Luego se procede a realizar la “inserción” del nodo para buscar el punto de inicio de la búsqueda.
+
+
+<p align="center">
+  <img  src="https://i.imgur.com/uDHGYhA.png">
+</p>
+
+<p align="center">
+  Fig 2.3 Pop en la pila no vacia.
+</p>
+
+En este sector del codigo observamos la equivalencia a hacer s.pop mientras la pila no este vacía, y se chequea la condición para saber si debería ingresarse a la lista final. Un detalle de la implementación es que los primeros 10 datos observados se ingresan obligatoriamente, y son los datos posteriores los que analizar la distancia propiamente tal.
+
+
+<p align="center">
+  <img  src="https://i.imgur.com/WY2VBp6.png">
+</p>
+
+<p align="center">
+  Fig 2.4 Comparación de sub-arboles.
+</p>
+
+Para terminar, el algoritmo realiza la comparación de los sub-arboles derechos e izquierdo para ver si en ellos podrían haber más candidatos. para esto se comparan la distancia del último elemento que es candidato a mejor con la distancia en la dimensión actual a la línea de separación, de poder existir un candidato ahí se vuelve a realizar la inserción del dato a este subárbol y consecuentemente al ingresarse a la pila S, se explora. 
+
+
 
 
 <br></br>
