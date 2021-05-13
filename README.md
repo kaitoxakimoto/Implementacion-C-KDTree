@@ -21,9 +21,10 @@ Para correr la aplicación, simplemente correr el comando `python main.py`
 
 <p align="center">
   <img  src="https://i.imgur.com/TLyW9UT.png">
+  Fig 1.1 Comando de ejecución.
 </p>
 <p align="center">
-  Fig 1.1 Comando de ejecución.
+  
 </p>
 
 
