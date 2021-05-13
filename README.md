@@ -90,8 +90,9 @@ Para salir de la aplicación, simplemente ingrese 0 en la terminal.
 
 Manuel está interesado en el mercado del desarrollo móvil, por lo que comenzó a recopilar toda la información de las aplicaciones más descargadas de una tienda. Manuel le pide a su equipo (uds.) que le hagan un programa que, a partir de los datos recopilados, obtenga información de aplicaciones similares a las que se encuentra desarrollando.
 
-Nuestra solución al desafío 3 modela el problema con KD Tree, con los datos de las aplicaciones en sus nodos. Con esto, evitamos una comparación exhaustiva de 1 con otros 7000 elementos, reduciendo drasticamente el rendimiento y los tiempos de ejecución. 
-
+Nuestra solución al desafío 3 modela el problema con KD Tree, con los datos de las aplicaciones en sus nodos. Con esto, evitamos una comparación exhaustiva de 1 con otros 7000 elementos, reduciendo drasticamente el rendimiento y los tiempos de ejecución. Con esto, se implementaron las funcionalidades requeridas por el desafio:
+* Mostrar información de una aplicación específica con un ID o Nombre
+* Mostrar información de las 10 aplicaciones más parecidas a una aplicación a traves de un ID o dado una serie de atributos en un vector (price, size_bytes, prime_genre, …)
 
 <br></br>
 
