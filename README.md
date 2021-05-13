@@ -22,6 +22,9 @@ Para correr la aplicación, simplemente correr el comando `python main.py`
 <p align="center">
   <img  src="https://i.imgur.com/TLyW9UT.png">
 </p>
+<p align="center">
+  Fig 1.1 Comando de ejecución.
+</p>
 
 
 Luego, mostrará la interfaz, en donde hay 4 opciones, para usarlas, el usuario debe ingresar el digito correspondiente. Estas seran explicadas a continuación.
@@ -35,8 +38,21 @@ Para buscar una aplicación según nombre o ID, ingrese este luego de confirmar 
 </p>
 
 <p align="center">
-  Fig 1.1 Busqueda de la aplicación mediante ID.
+  Fig 1.2 Busqueda de la aplicación mediante ID.
 </p>
+
+<p align="center">
+  <img  src="https://i.imgur.com/U4g7qtC.png">
+</p>
+
+<p align="center">
+  Fig 1.3 Busqueda de la aplicación mediante Nombre.
+</p>
+
+
+
+
+
 
 
 ## _Descripción del problema_
@@ -63,6 +79,8 @@ __Naked Single:__ Primero se examina el sudoku por casillas donde solo existe un
 <p align="center">
   Fig 1. Casilla [4,9] solo posee el número 7 como candidato, limpiando las casillas de la fila 4, columna 9 y bloque [2,3] que tengan el número 7 como candidato. Lo cual a su vez hace que la casilla [4,7] tenga solo el número 8 como candidato.
 </p>
+
+
 
 <br></br>
 
