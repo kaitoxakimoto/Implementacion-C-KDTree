@@ -21,10 +21,10 @@ Para correr la aplicación, simplemente correr el comando `python main.py`
 
 <p align="center">
   <img  src="https://i.imgur.com/TLyW9UT.png">
-  Fig 1.1 Comando de ejecución.
+  
 </p>
 <p align="center">
-  
+  Fig 1.1 Comando de ejecución.
 </p>
 
 
@@ -67,6 +67,23 @@ Para buscar las 10 aplicaciones más parecidas a una aplicación dada, ingrese e
 
 
 ### _3 - Mostrar información de las 10 aplicaciones más parecidas a vector de atributos_
+
+
+Para buscar las 10 aplicaciones más parecidas a una aplicación dada, los atributos del vector deben ser entregados luego de confirmar la opción, de la siguiente manera.
+
+<p align="center">
+  <img  src="https://cdn.discordapp.com/attachments/825467667955712031/842217743654191134/unknown.png">
+</p>
+
+<p align="center">
+  Fig 1.4 Busqueda de las 10 aplicaciones mas cercanas según un vector de atributos.
+</p>
+
+### _0 - Salir de la aplicación_
+
+Para salir de la aplicación, simplemente ingrese 0 en la terminal.
+
+
 
 
 ## _Descripción del problema_
