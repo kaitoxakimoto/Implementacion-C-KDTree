@@ -4,7 +4,7 @@ Bienvenido a Desafio 3. Este programa busca encontrar aplicaciones similares a p
 
 <br></br>
 
-## _Instrucciones de uso
+## _Instrucciones de uso_
 
 Para utilizar nuestro programa, se necesita Python 3+, y los siguientes packetes.
 * Numpy (pip install numpy)
