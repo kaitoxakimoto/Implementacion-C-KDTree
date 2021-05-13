@@ -71,7 +71,7 @@ while True:
 
     elif choice ==3:
         point = list()
-        lookup = float(input("Ingrese el size_bytes: "))
+        lookup = float(input("Ingrese el size_bytes: "))/(1024**2)
         point.append(lookup)
         lookup = float(input("Ingrese el precio: "))
         point.append(lookup)
@@ -83,11 +83,12 @@ while True:
         point.append(lookup)
         lookup = float(input("Ingrese el user_rating_ver: "))
         point.append(lookup)
-        lookup = float(input("Ingrese el ver: "))
+        lookup = input("Ingrese el ver: ")
+        lookup = verToNumber(lookup.replace(' Build ', ',').replace('.','').replace('iOV', '').replace('v','').replace('b', '').replace(',', '').replace('V', '').replace('Update ', ''))
         point.append(lookup)
-        lookup = float(input("Ingrese el cont_rating: "))
+        lookup = float(input("Ingrese el cont_rating: ").replace('+',''))
         point.append(lookup)
-        lookup = float(input("Ingrese el prime_genre: "))
+        lookup = switch_genre_index(input("Ingrese el prime_genre: "))
         point.append(lookup)
         lookup = float(input("Ingrese el sup_devices.num: "))
         point.append(lookup)
@@ -101,7 +102,6 @@ while True:
         mejores, it, tiemp = kd_tree.knearest(10, point)
         for i in range(len(mejores)):
             print ("Con una distancia de ", mejores[i][1], " el ", i+1, "elemento mas cercano es",mejores[i][0].data[0], " id:" ,mejores[i][0].data[1])
-            print (i)
         print ("\ncon un tiempo de ", tiemp, " y ",it, " iteraciones cuando es buscado por KDTree.")
         kdtime = tiemp
 
